@@ -18,7 +18,7 @@ The project featured interactive elements like plan selection cards, a billing t
 
 ## Deployed Link
 
-Check out the live version of the project here: 
+Check out the live version of the project here: https://simple-multi-step-form-by-mj.netlify.app/
 
 ## How to Use
 

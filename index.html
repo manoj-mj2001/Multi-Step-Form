@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Info</title>
+    <link rel="icon" href="./images/favicon-32x32.png" type="image/png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .btn-next {
+        margin-top: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <div class="sidebar d-flex flex-column">
+            <div class="sidebar-content flex-grow-1">
+              <div class="sidebar-item active">
+                <span class="number">1</span>
+                <span class="text">STEP 1</span>
+                <div class="title">YOUR INFO</div>
+              </div>
+              <div class="sidebar-item">
+                <span class="number">2</span>
+                <span class="text">STEP 2</span>
+                <div class="title">SELECT PLAN</div>
+              </div>
+              <div class="sidebar-item">
+                <span class="number">3</span>
+                <span class="text">STEP 3</span>
+                <div class="title">ADD-ONS</div>
+              </div>
+              <div class="sidebar-item">
+                <span class="number">4</span>
+                <span class="text">STEP 4</span>
+                <div class="title">SUMMARY</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="form-content">
+            <h2>Personal info</h2>
+            <p>Please provide your name, email address, and phone number.</p>
+            <form id="personal-info-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="e.g. Stephen King"
+                  required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="e.g. stephenking@lorem.com"
+                  required />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  placeholder="e.g. +1 234 567 890"
+                  required />
+              </div>
+              <button type="button" class="btn-next" onclick="goToStep2()">
+                Next Step
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

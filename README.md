@@ -1,3 +1,5 @@
+**Future Core Innovations Task**
+
 # Multi-Step Form
 
 The project featured interactive elements like plan selection cards, a billing toggle switch for monthly/yearly options, and a responsive layout built using HTML5, CSS3, Bootstrap 5, and JavaScript. Optimized for various devices with a mobile-first approach, ensuring seamless performance on desktops, tablets, and smartphones. Overcame challenges in form step transitions and responsive design through problem-solving and user-centric development.

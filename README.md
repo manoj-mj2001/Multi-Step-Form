@@ -1,6 +1,6 @@
 # Multi-Step Form
 
-This is a responsive multi-step form built using HTML, CSS, Bootstrap, and JavaScript. The form takes users through a series of steps to fill out personal information, select a plan, and review their selections before submitting.
+The project featured interactive elements like plan selection cards, a billing toggle switch for monthly/yearly options, and a responsive layout built using HTML5, CSS3, Bootstrap 5, and JavaScript. Optimized for various devices with a mobile-first approach, ensuring seamless performance on desktops, tablets, and smartphones. Overcame challenges in form step transitions and responsive design through problem-solving and user-centric development.
 
 ## Features
 
